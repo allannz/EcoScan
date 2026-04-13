@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>EcoScan 🌱</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>EcoScan 🌱</h1>
+<p>Descubra seu impacto ambiental</p>
+
+<!-- 💧 ÁGUA -->
+<div class="secao">
+  <h3>💧 Água</h3>
+
+  <p>Tempo de banho</p>
+  <label><input type="radio" name="agua1" value="2"> Até 5 min</label><br>
+  <label><input type="radio" name="agua1" value="1"> 5 a 10 min</label><br>
+  <label><input type="radio" name="agua1" value="0"> Mais de 10 min</label><br>
+
+  <p>Fecha a torneira ao escovar?</p>
+  <label><input type="radio" name="agua2" value="2"> Sempre</label><br>
+  <label><input type="radio" name="agua2" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="agua2" value="0"> Nunca</label><br>
+
+  <p>Evita desperdício de água?</p>
+  <label><input type="radio" name="agua3" value="2"> Sempre</label><br>
+  <label><input type="radio" name="agua3" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="agua3" value="0"> Nunca</label><br>
+</div>
+
+<!-- ⚡ ENERGIA -->
+<div class="secao">
+  <h3>⚡ Energia</h3>
+
+  <p>Deixa aparelhos em standby?</p>
+  <label><input type="radio" name="energia1" value="2"> Nunca</label><br>
+  <label><input type="radio" name="energia1" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="energia1" value="0"> Sempre</label><br>
+
+  <p>Apaga as luzes?</p>
+  <label><input type="radio" name="energia2" value="2"> Sempre</label><br>
+  <label><input type="radio" name="energia2" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="energia2" value="0"> Nunca</label><br>
+
+  <p>Usa lâmpadas LED?</p>
+  <label><input type="radio" name="energia3" value="2"> Sim</label><br>
+  <label><input type="radio" name="energia3" value="1"> Parcialmente</label><br>
+  <label><input type="radio" name="energia3" value="0"> Não</label><br>
+</div>
+
+<!-- ♻️ RESÍDUOS -->
+<div class="secao">
+  <h3>♻️ Resíduos</h3>
+
+  <p>Separa o lixo?</p>
+  <label><input type="radio" name="res1" value="2"> Sempre</label><br>
+  <label><input type="radio" name="res1" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="res1" value="0"> Nunca</label><br>
+
+  <p>Reutiliza materiais?</p>
+  <label><input type="radio" name="res2" value="2"> Sempre</label><br>
+  <label><input type="radio" name="res2" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="res2" value="0"> Nunca</label><br>
+
+  <p>Recicla corretamente?</p>
+  <label><input type="radio" name="res3" value="2"> Sempre</label><br>
+  <label><input type="radio" name="res3" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="res3" value="0"> Nunca</label><br>
+</div>
+
+<!-- 🛒 CONSUMO -->
+<div class="secao">
+  <h3>🛒 Consumo</h3>
+
+  <p>Usa descartáveis?</p>
+  <label><input type="radio" name="cons1" value="2"> Quase nunca</label><br>
+  <label><input type="radio" name="cons1" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="cons1" value="0"> Sempre</label><br>
+
+  <p>Pensa antes de comprar?</p>
+  <label><input type="radio" name="cons2" value="2"> Sempre</label><br>
+  <label><input type="radio" name="cons2" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="cons2" value="0"> Nunca</label><br>
+
+  <p>Reutiliza produtos?</p>
+  <label><input type="radio" name="cons3" value="2"> Sempre</label><br>
+  <label><input type="radio" name="cons3" value="1"> Às vezes</label><br>
+  <label><input type="radio" name="cons3" value="0"> Nunca</label><br>
+</div>
+
+<button onclick="calcular()">Ver resultado</button>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
