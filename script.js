@@ -128,7 +128,7 @@ function calcular() {
 
   // 🧾 Resultado
   document.getElementById("resultado").innerHTML = `
-    <h2>📊 Resultado de ${nome}</h2>
+    <h2>Resultados</h2>
 
     Água: ${pAgua.toFixed(0)}% (${nivel(pAgua)})<br>
     Energia: ${pEnergia.toFixed(0)}% (${nivel(pEnergia)})<br>
